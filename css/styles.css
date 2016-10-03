@@ -1,3 +1,27 @@
-body {
-  background-color: red;
+.cell {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+#board {
+  width: 602px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#row1 .cell{
+  border-bottom: 1px solid black;
+}
+
+#row3 .cell{
+  border-top: 1px solid black;
+}
+
+#cell1, #cell4, #cell7 {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
